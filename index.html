@@ -18,6 +18,22 @@
             Ahmed phone shop
         </h1>
     </header>
+    <main class="container">
+        <!-- search button and input group -->
+        <section>
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input id="search-input" type="text" class="form-control" placeholder="search phone name"
+                    aria-label="search phone" aria-describedby="button-addon2" />
+                <button onclick="getProducts()" class="btn btn-outline-secondary" type="button"
+                    id="search-button">Search</button>
+            </div>
+            <!-- empty input error handel  -->
+            <h3 id="empty-input-error" class="text-center text-danger"> your search input empty !! please type phone
+                name.
+            </h3>
+        </section>
+
+    </main>
     <!-- Bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- java script link  -->
